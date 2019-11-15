@@ -31,11 +31,11 @@ class Cart extends Component {
                                     <b>Quantity: {item.quantity}</b>
                                 </p>
                                 <div className="add-remove">
-                                    <Link to="/cart"
+                                    <Link to="/shoppingcart/cart"
                                         onClick={() => this.handleAddQuantity(item.id)}>
                                         <i className="material-icons">arrow_drop_up</i>
                                     </Link>
-                                    <Link to="/cart"
+                                    <Link to="/shoppingcart/cart"
                                         onClick={() => this.handleSubtractQuantity(item.id)}
                                     >
                                         <i className="material-icons">arrow_drop_down</i>
